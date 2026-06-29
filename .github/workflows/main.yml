@@ -62,7 +62,7 @@ jobs:
         env:
           SPRING_DATASOURCE_URL: jdbc:mysql://127.0.0.1:3306/testdb
           SPRING_DATASOURCE_USERNAME: root
-          SPRING_DATASOURCE_PASSWORD: testpassword
+          SPRING_DATASOURCE_PASSWORD: Bangalore9250
       - uses: actions/upload-artifact@v4
         if: always()
         with:
